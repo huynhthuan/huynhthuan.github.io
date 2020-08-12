@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="apple-touch-icon" href="assets/img/icon.png">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/gif">
+
+    <title>VACCO</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="vendors/bootstrap-4.5.0-dist/css/bootstrap.css">
+
+    <!--SlickSlider-->
+    <link rel="stylesheet" href="vendors/slickSlider/slick.css">
+    <link rel="stylesheet" href="vendors/slickSlider/slick-theme.css">
+
+    <link rel="stylesheet" href="vendors/fontawesome-free-5.14.0-web/css/all.css">
+
+    <link rel="preload" as="font" href="vendors/font-lato/stylesheet.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<!--[---------------------Content start here-----------------------]-->
+<header>
+    <div class="menu-top">
+        <div class="menu-top-logo">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+
+            <div class="btn btn-light menu-toggle">
+                <i class="fas fa-bars icon-toggle"></i>
+            </div>
+        </div>
+
+        <div class="menu-top-list">
+            <div class="menu-top-item">
+                <div class="menu-top-icon">
+                    <img src="assets/img/ic_phone.png" alt="phone">
+                </div>
+                <div class="menu-top-content">
+                    <a href="tel:081-332-5989" class="font-weight-bold color-red">081-332-5989</a>
+                </div>
+            </div>
+            <div class="menu-top-item">
+                <div class="menu-top-icon">
+                    <img src="assets/img/ic_live.png" alt="live">
+                </div>
+                <div class="menu-top-content">
+                    <a href="#">Giao lưu trực tuyến</a>
+                </div>
+            </div>
+            <div class="menu-top-item">
+                <div class="menu-top-icon">
+                    <img src="assets/img/ic_pin.png" alt="pin">
+                </div>
+                <div class="menu-top-content">
+                    <a href="#">Tìm trung tâm tiêm chủng</a>
+                </div>
+            </div>
+            <div class="menu-top-item">
+                <div class="menu-top-icon">
+                    <img src="assets/img/ic_user.png" alt="user">
+                </div>
+                <div class="menu-top-content">
+                    <a href="login.html">
+                        Đăng nhập tài khoản
+                    </a>
+                </div>
+            </div>
+            <div class="menu-top-item w-100 pr-lg-0 ml-lg-auto">
+                <div class="menu-top-content">
+                    <a href="subcribe-info.html" class="button button--subcribe">
+                        Đăng ký tiêm
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul class="menu-list">
+            <li class="menu-item"><a href="index.html" class="menu-link">Trang chủ</a></li>
+            <li class="menu-item"><a href="about.html" class="menu-link">Giới thiệu</a></li>
+            <li class="menu-item"><a href="about-adult.html" class="menu-link">Tiêm chủng người lớn</a></li>
+            <li class="menu-item"><a href="about-adult.html" class="menu-link">Tiêm chủng trẻ em</a></li>
+            <li class="menu-item"><a href="about-adult.html" class="menu-link">Tiêm chủng thai kỳ</a></li>
+            <li class="menu-item"><a href="about-adult.html" class="menu-link">Tin tức</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Khảo sát</a></li>
+        </ul>
+        <div class="menu-search">
+            <div class="button-search d-none d-lg-block">
+                <img src="assets/img/ic_search.png" alt="search">
+            </div>
+            <form>
+                <div class="form-group">
+                    <input type="text" name="search" class="form-control">
+                </div>
+                <button type="submit"><img src="assets/img/ic_search.png" alt="search"></button>
+            </form>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="box box-banner">
+        <div class="box-content">
+            <div class="container-fluid p-0">
+                <div class="banner-list" id="banner-list">
+                    <img src="assets/img/banner.jpg" alt="banner" class="img-fluid">
+                    <img src="assets/img/banner.jpg" alt="banner" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box-feature">
+        <div class="box-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img src="assets/img/ic_service1.png" alt="service1">
+                            </div>
+
+                            <div class="feature-title">
+                                <h3>
+                                    Đặt lịch tiêm
+                                </h3>
+                            </div>
+
+                            <div class="feature-content">
+                                <p>
+                                    Việc đặt lịch tiêm giúp Quý Khách tiết kiệm thời gian khi làm thủ tục, không mang ý nghĩa giữ mũi vắc xin
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img src="assets/img/ic_service2.png" alt="service2">
+                            </div>
+
+                            <div class="feature-title">
+                                <h3>
+                                    Tra cứu lịch sử
+                                </h3>
+                            </div>
+
+                            <div class="feature-content">
+                                <p>
+                                    Quý Khách dễ dàng nắm được thông tin tiêm chủng của mình và người thân khi sử dụng “Tra cứu lịch sử”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img src="assets/img/ic_service3.png" alt="service3">
+                            </div>
+
+                            <div class="feature-title">
+                                <h3>
+                                    Bảng giá tiêm chủng
+                                </h3>
+                            </div>
+
+                            <div class="feature-content">
+                                <p>
+                                    Bảng giá trên được áp dụng từ ngày 15/07/2020, và đã bao gồm chi phí khám, tư vấn với Bác sĩ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img src="assets/img/ic_service4.png" alt="service4">
+                            </div>
+
+                            <div class="feature-title">
+                                <h3>
+                                    Hỏi đáp
+                                </h3>
+                            </div>
+
+                            <div class="feature-content">
+                                <p>
+                                    Thông tin hỏi đáp giải đáp các câu hỏi thường gặp, giúp Quý Khách nhanh chóng có được câu trả lời
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box-intro">
+        <div class="box-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box-des">Giới thiệu</div>
+                        <div class="box-title">
+                            <h2>
+                                Chuỗi trung tâm tiêm chủng VACCO
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-8">
+                        <div class="box-expert">
+                            <p>
+                                Trong bối cảnh thế giới đang phải đương đầu với tình trạng biến đổi phức tạp của các chủng vi khuẩn gây bệnh cũng như sự thiếu hụt vắc xin tại Việt
+                                Nam như hiện nay, Hệ thống tiêm chủng VACCO ra đời nhằm cung cấp cho trẻ em Việt Nam những loại vắc xin có chất lượng cùng với hệ thống phòng tiêm
+                                chủng an toàn…
+                            </p>
+                            <span class="box-viewmore">Xem thêm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="intro-item">
+                            <img src="assets/img/intro-1.png" alt="intro">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="intro-item">
+                            <img src="assets/img/intro-2.png" alt="intro">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="intro-item">
+                            <img src="assets/img/intro-3.png" alt="intro">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box-service">
+        <div class="box-header">
+            <div class="container">
+                <div class="box-title">
+                    <h2 class="color-blue">
+                        Dịch Vụ Tiêm Chủng
+                    </h2>
+                </div>
+
+                <div class="box-expert">
+                    <p>
+                        Tiêm chủng đầy đủ giúp trẻ em phòng ngừa được nhiều bệnh truyền nhiễm nguy hiểm
+                        và hạn chế rủi ro biến chứng do các bệnh gây ra
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-xl-9 service-wrap mx-auto">
+                        <div class="service-row">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="assets/img/service-1.png" alt="service">
+                                </div>
+                                <div class="service-number">
+                                    01.
+                                </div>
+                                <div class="service-title">
+                                    Tiêm chủng cho người lớn
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="assets/img/service-2.png" alt="service">
+                                </div>
+                                <div class="service-number">
+                                    02.
+                                </div>
+                                <div class="service-title">
+                                    Tiêm chủng cho trẻ em
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-row">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="assets/img/service-4.png" alt="service">
+                                </div>
+                                <div class="service-number">
+                                    04.
+                                </div>
+                                <div class="service-title">
+                                    Tiêm chủng trọn gói
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="assets/img/service-3.png" alt="service">
+                                </div>
+                                <div class="service-number">
+                                    03.
+                                </div>
+                                <div class="service-title">
+                                    Tiêm chủng thai kỳ
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-bg">
+                            <div class="service-circle">
+                                <img src="assets/img/logo.png" alt="logo">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <a href="#" class="button btn--order">Đặt lịch tư vấn ngay <img src="assets/img/ic_arrow.png" alt="arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box-news box-bg-light">
+        <div class="box-header">
+            <div class="container">
+                <div class="box-title">
+                    <h2 class="color-blue">
+                        Tin Tức Tiêm Chủng
+                    </h2>
+                </div>
+
+                <div class="box-expert">
+                    <p>
+                        Tiêm chủng đầy đủ giúp trẻ em phòng ngừa được nhiều bệnh truyền nhiễm nguy hiểm
+                        và hạn chế rủi ro biến chứng do các bệnh gây ra
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="news-item news-item-bigger">
+                            <div class="news-content">
+                                <div class="news-img">
+                                    <img src="assets/img/p1.png" alt="post" class="img-fluid">
+                                </div>
+                                <div class="news-title">
+                                    <a href="#">Vì sao người lớn cần tiêm vắc xin?</a>
+                                </div>
+                                <div class="news-expert">
+                                    <p>Tiêm chủng vắc xin là biện pháp phòng bệnh truyền nhiễm đơn giản và hiệu quả nhất hiện nay. Nếu không được tiêm chủng đầy đủ, nguy cơ nhiễm
+                                        bệnh
+                                        cao, người bệnh dễ đối mặt với nhiều biến chứng nguy hiểm liên quan đến các cơ quan nội tạng, tứ chi, mắt…</p>
+                                </div>
+                            </div>
+                            <div class="news-footer">
+                                <div class="news-date">
+                                    <p>Cập nhật: 01/09/2020</p>
+                                </div>
+                                <div class="news-link">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 news-wrap">
+                        <div class="news-item news-item-small">
+                            <div class="news-content">
+                                <div class="news-img">
+                                    <img src="assets/img/p2.png" alt="post">
+                                </div>
+                                <div class="news-title">
+                                    <a href="#">Lịch tiêm phòng cho bà bầu mang thai lần đầu và lần 2 có khác nhau?</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item news-item-small">
+                            <div class="news-content">
+                                <div class="news-img">
+                                    <img src="assets/img/p3.png" alt="post">
+                                </div>
+                                <div class="news-title">
+                                    <a href="#">Những loại vắc xin tiêm trước khi mang thai được miễn dịch bao nhiêu năm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item news-item-small">
+                            <div class="news-content">
+                                <div class="news-img">
+                                    <img src="assets/img/p4.png" alt="post">
+                                </div>
+                                <div class="news-title">
+                                    <a href="#">Tư vấn trực tuyến: Dịch bệnh mùa đông xuân ở trẻ nhỏ, cách phòng ngừa & điều trị</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item news-item-small">
+                            <div class="news-content">
+                                <div class="news-img">
+                                    <img src="assets/img/p5.png" alt="post">
+                                </div>
+                                <div class="news-title">
+                                    <a href="#">Vắc xin cần tiêm phòng trước khi mang thai: những thắc mắc thường gặp</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item news-item-small">
+                            <div class="news-content">
+                                <div class="news-img">
+                                    <img src="assets/img/p6.png" alt="post">
+                                </div>
+                                <div class="news-title">
+                                    <a href="#">Vì sao phụ nữ mang thai và đang cho con bú nên tiêm phòng cúm mùa?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box-feedback">
+        <div class="box-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="box-title box-title-icon">
+                            <h3 class="color-blue font-weight-bold">
+                                Chia sẻ của khách hàng
+                            </h3>
+                        </div>
+                        <div class="feedback-content" id="feedback-content">
+                            <div class="feedback-item" data-img="assets/img/fb.png">
+                                <div class="feedback-comment">
+                                    <p>
+                                        Bé nhà mình tiêm ở VACCO được chăm sóc chu đáo, vào kiểm tra sức khoẻ đầy đủ rồi mới làm thủ tục tiêm chủng, Bác sĩ tư vấn nhiệt tình
+                                    </p>
+                                </div>
+
+                                <div class="feedback-meta">
+                                    <div class="feedback-name">
+                                        <p>— Chị Mai —</p>
+                                    </div>
+                                    <div class="feedback-job">
+                                        Hướng dẫn viên du lịch
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feedback-item" data-img="assets/img/service-1.png">
+                                <div class="feedback-comment">
+                                    <p>
+                                        Bé nhà mình tiêm ở VACCO được chăm sóc chu đáo, vào kiểm tra sức khoẻ đầy đủ rồi mới làm thủ tục tiêm chủng, Bác sĩ tư vấn nhiệt tình 2
+                                    </p>
+                                </div>
+
+                                <div class="feedback-meta">
+                                    <div class="feedback-name">
+                                        <p>— Chị Mai 2 —</p>
+                                    </div>
+                                    <div class="feedback-job">
+                                        Hướng dẫn viên du lịch 2
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 ml-md-auto">
+                        <div class="feedback-list-img" id="feedback-list-img">
+                            <div class="feedback-item-img">
+                                <img src="assets/img/fb.png" alt="feedback" class="img-feedback">
+                            </div>
+                            <div class="feedback-item-img">
+                                <img src="assets/img/service-2.png" alt="feedback" class="img-feedback">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box-brand">
+        <div class="box-content">
+            <div class="container">
+                <div class="brand-list" id="brand-list">
+                    <img src="assets/img/logo1.png" alt="brand">
+                    <img src="assets/img/logo2.png" alt="brand">
+                    <img src="assets/img/logo3.png" alt="brand">
+                    <img src="assets/img/logo4.png" alt="brand">
+                    <img src="assets/img/logo5.png" alt="brand">
+                    <img src="assets/img/logo1.png" alt="brand">
+                    <img src="assets/img/logo2.png" alt="brand">
+                    <img src="assets/img/logo3.png" alt="brand">
+                    <img src="assets/img/logo4.png" alt="brand">
+                    <img src="assets/img/logo5.png" alt="brand">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row footer-wrap">
+            <div class="col-md-5">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo_white.png" alt="logo">
+                    </div>
+
+                    <div class="footer-content">
+                        <h3 class="footer-title">
+                            CÔNG TY CỔ PHẦN VẮC XIN VACCO
+                        </h3>
+                        <p>Mã số thuế: 0109095031</p>
+                        <p>Địa chỉ: Số 6A phố Sơn Tây, Phường Điện Biên, Ba Đình, Hà Nội</p>
+                        <p>E-mail: daohuuan@gmail.com</p>
+
+                        <div class="footer-box-icon">
+                            <div class="footer-icon">
+                                <img src="assets/img/ic_phone.png" alt="phone">
+                            </div>
+                            <p class="font-weight-bold color-red">081-332-5989</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-col">
+                    <div class="footer-content">
+                        <h3 class="footer-title text-white footer-title-bar">
+                            Thời gian làm việc
+                        </h3>
+                        <p>Giờ làm việc từ thứ 2 đến chủ nhật</p>
+                        <p> Từ 7h30 - 17h00 (không nghỉ trưa)</p>
+                        <div class="footer-box-icon">
+                            <div class="footer-icon">
+                                <img src="assets/img/ic_pin2.png" alt="pin">
+                            </div>
+                            <p class="color-yellow font-weight-bold">Tìm trung tâm</p>
+                        </div>
+                        <div class="footer-img">
+                            <a href="#">
+                                <img src="assets/img/certi.png" alt="certi">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-col">
+                    <div class="footer-content">
+                        <div class="footer-embed">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHaTrangTourist%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2711438699140291"
+                                    width="100%" height="220" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+                                    allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-coppyright">
+        <p>Bản quyền © 2020 thuộc về CÔNG TY CỔ PHẦN VACCO</p>
+    </div>
+</footer>
+<!--[---------------------JS start here-----------------------]-->
+
+<!--Jquery-->
+<script src="vendors/jquery/jquery-3.5.1.min.js"></script>
+<!--Bootstrap-->
+<script src="vendors/bootstrap-4.5.0-dist/js/bootstrap.bundle.js"></script>
+<!--Slickslider-->
+<script src="vendors/slickSlider/slick.min.js"></script>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

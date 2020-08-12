@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="apple-touch-icon" href="assets/img/icon.png">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/gif">
+
+    <title>VACCO</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="vendors/bootstrap-4.5.0-dist/css/bootstrap.css">
+
+    <!--SlickSlider-->
+    <link rel="stylesheet" href="vendors/slickSlider/slick.css">
+
+    <link rel="stylesheet" href="vendors/fontawesome-free-5.14.0-web/css/all.css">
+
+    <link rel="preload" as="font" href="vendors/font-lato/stylesheet.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<!--[---------------------Content start here-----------------------]-->
+<header>
+    <div class="menu-top">
+        <div class="menu-top-logo">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo">
+            </a>
+
+            <div class="btn btn-light menu-toggle">
+                <i class="fas fa-bars icon-toggle"></i>
+            </div>
+        </div>
+
+        <div class="menu-top-list">
+            <div class="menu-top-item">
+                <div class="menu-top-icon">
+                    <img src="assets/img/ic_phone.png" alt="phone">
+                </div>
+                <div class="menu-top-content">
+                    <a href="tel:081-332-5989" class="font-weight-bold color-red">081-332-5989</a>
+                </div>
+            </div>
+            <div class="menu-top-item">
+                <div class="menu-top-icon">
+                    <img src="assets/img/ic_live.png" alt="live">
+                </div>
+                <div class="menu-top-content">
+                    <a href="#">Giao lưu trực tuyến</a>
+                </div>
+            </div>
+            <div class="menu-top-item">
+                <div class="menu-top-icon">
+                    <img src="assets/img/ic_pin.png" alt="pin">
+                </div>
+                <div class="menu-top-content">
+                    <a href="#">Tìm trung tâm tiêm chủng</a>
+                </div>
+            </div>
+            <div class="menu-top-item">
+                <div class="menu-top-icon">
+                    <img src="assets/img/ic_user.png" alt="user">
+                </div>
+                <div class="menu-top-content">
+                    <a href="login.html">
+                        Đăng nhập tài khoản
+                    </a>
+                </div>
+            </div>
+            <div class="menu-top-item w-100 pr-lg-0 ml-lg-auto">
+                <div class="menu-top-content">
+                    <a href="subcribe-info.html" class="button button--subcribe">
+                        Đăng ký tiêm
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul class="menu-list">
+            <li class="menu-item"><a href="index.html" class="menu-link">Trang chủ</a></li>
+            <li class="menu-item"><a href="about.html" class="menu-link">Giới thiệu</a></li>
+            <li class="menu-item"><a href="about-adult.html" class="menu-link">Tiêm chủng người lớn</a></li>
+            <li class="menu-item"><a href="about-adult.html" class="menu-link">Tiêm chủng trẻ em</a></li>
+            <li class="menu-item"><a href="about-adult.html" class="menu-link">Tiêm chủng thai kỳ</a></li>
+            <li class="menu-item"><a href="about-adult.html" class="menu-link">Tin tức</a></li>
+            <li class="menu-item"><a href="#" class="menu-link">Khảo sát</a></li>
+        </ul>
+        <div class="menu-search">
+            <div class="button-search d-none d-lg-block">
+                <img src="assets/img/ic_search.png" alt="search">
+            </div>
+            <form>
+                <div class="form-group">
+                    <input type="text" name="search" class="form-control">
+                </div>
+                <button type="submit"><img src="assets/img/ic_search.png" alt="search"></button>
+            </form>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="page page-table-price">
+        <div class="page-banner">
+            <img src="assets/img/about.png" alt="banner">
+            <div class="page-banner-content">
+                <div class="page-title">
+                    <h2>Bảng giá</h2>
+                </div>
+
+                <div class="bred-crumb">
+                    <a href="#">Tiêm chủng người lớn</a> <span class="bred-crumb-tag"> > </span> <a href="#">Bảng giá</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-content">
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th scope="col">STT</th>
+                            <th scope="col">Phòng bệnh</th>
+                            <th scope="col">Tên vacxin</th>
+                            <th scope="col">Sản xuất</th>
+                            <th scope="col">Giá bán lẻ (VNĐ)</th>
+                            <th>
+                                Giá mua đặt giữ vacxin
+                                theo yêu cầu (VNĐ)
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Bạch hầu, ho gà, uốn ván, bại liệt và Hib</td>
+                            <td>Pentaxim (5 in 1)</td>
+                            <td>Pháp</td>
+                            <td><b>785.000</b></td>
+                            <td><b>942.000</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="2">2</th>
+                            <td rowspan="2">Bạch hầu, ho gà, uốn ván, bại liệt, Hib
+                                và viêm gan B
+                            </td>
+                            <td>Infanrix Hexa</td>
+                            <td>Bỉ</td>
+                            <td><b>1.015.000</b></td>
+                            <td><b>1.218.000</b></td>
+                        </tr>
+                        <tr>
+                            <td>Hexaxim</td>
+                            <td>Pháp</td>
+                            <td><b>1.015.000</b></td>
+                            <td><b>1.218.000</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3">3</th>
+                            <td rowspan="3">Rota virus</td>
+                            <td>Rotateq</td>
+                            <td>Mỹ</td>
+                            <td><b>665.000</b></td>
+                            <td><b>798.000</b></td>
+                        </tr>
+                        <tr>
+                            <td>Rotarix</td>
+                            <td>Bỉ</td>
+                            <td>825.000</td>
+                            <td>990.000</td>
+                        </tr>
+                        <tr>
+                            <td>Rotavin</td>
+                            <td>Việt Nam</td>
+                            <td>490.000</td>
+                            <td>588.000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="2">4</th>
+                            <td rowspan="2">Các bệnh do phế cầu</td>
+                            <td>Synflorix</td>
+                            <td>Bỉ</td>
+                            <td>1.045.000</td>
+                            <td>1.254.000</td>
+                        </tr>
+                        <tr>
+                            <td>Prevenar 13</td>
+                            <td>Anh</td>
+                            <td>1.290.000</td>
+                            <td>1.548.000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Lao</td>
+                            <td>BCG</td>
+                            <td>Việt Nam</td>
+                            <td>125.000</td>
+                            <td>150.000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="2">6</th>
+                            <td rowspan="2">Viêm gan B người lớn</td>
+                            <td>Engerix B 1ml</td>
+                            <td>Bỉ</td>
+                            <td>235.000</td>
+                            <td>282.000</td>
+                        </tr>
+                        <tr>
+                            <td>Euvax B 1ml</td>
+                            <td>Hàn Quốc</td>
+                            <td>170.000</td>
+                            <td>204.000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3">7</th>
+                            <td rowspan="3">Viêm gan B trẻ em</td>
+                            <td>Euvax B 0.5ml</td>
+                            <td>Hàn Quốc</td>
+                            <td>116.000</td>
+                            <td>140.000</td>
+                        </tr>
+                        <tr>
+                            <td>Hepavax Gene 0.5ml</td>
+                            <td>Hàn Quốc</td>
+                            <td>145.000</td>
+                            <td>174.000</td>
+                        </tr>
+                        <tr>
+                            <td>Engerix B 0,5ml</td>
+                            <td>Bỉ</td>
+                            <td>190.000</td>
+                            <td>228.000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Viêm màng não mô cầu BC</td>
+                            <td>Mengoc BC</td>
+                            <td>Cu Ba</td>
+                            <td><b>295.000</b></td>
+                            <td><b>354.000</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Viêm màng não mô cầu ACYW</td>
+                            <td>Menactra</td>
+                            <td>Mỹ</td>
+                            <td><b>1.260.000</b></td>
+                            <td><b>1.512.000</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="2">10</th>
+                            <td rowspan="2">Sởi</td>
+                            <td>MVVac (Lọ 5ml)</td>
+                            <td>Việt Nam</td>
+                            <td><b>315.000</b></td>
+                            <td><b>378.000</b></td>
+                        </tr>
+                        <tr>
+                            <td>MVVac (Liều 0.5ml)</td>
+                            <td>Việt Nam</td>
+                            <td><b>180.000</b></td>
+                            <td><b>216.000</b></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="form-notice">
+                    <b>Lưu ý:</b>
+                    <ul>
+                        <li>- Giá vắc xin có thể thay đổi, Quý khách vui lòng liên hệ Tổng đài hoặc nhân viên tại Trung tâm để được tư vấn.</li>
+                        <li>-Bảng giá trên được áp dụng từ ngày 15/07/2020, và đã bao gồm chi phí khám, tư vấn với Bác sĩ và các tiện ích đi kèm.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row footer-wrap">
+            <div class="col-md-5">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo_white.png" alt="logo">
+                    </div>
+
+                    <div class="footer-content">
+                        <h3 class="footer-title">
+                            CÔNG TY CỔ PHẦN VẮC XIN VACCO
+                        </h3>
+                        <p>Mã số thuế: 0109095031</p>
+                        <p>Địa chỉ: Số 6A phố Sơn Tây, Phường Điện Biên, Ba Đình, Hà Nội</p>
+                        <p>E-mail: daohuuan@gmail.com</p>
+
+                        <div class="footer-box-icon">
+                            <div class="footer-icon">
+                                <img src="assets/img/ic_phone.png" alt="phone">
+                            </div>
+                            <p class="font-weight-bold color-red">081-332-5989</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-col">
+                    <div class="footer-content">
+                        <h3 class="footer-title text-white footer-title-bar">
+                            Thời gian làm việc
+                        </h3>
+                        <p>Giờ làm việc từ thứ 2 đến chủ nhật</p>
+                        <p> Từ 7h30 - 17h00 (không nghỉ trưa)</p>
+                        <div class="footer-box-icon">
+                            <div class="footer-icon">
+                                <img src="assets/img/ic_pin2.png" alt="pin">
+                            </div>
+                            <p class="color-yellow font-weight-bold">Tìm trung tâm</p>
+                        </div>
+                        <div class="footer-img">
+                            <a href="#">
+                                <img src="assets/img/certi.png" alt="certi">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-col">
+                    <div class="footer-content">
+                        <div class="footer-embed">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHaTrangTourist%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2711438699140291"
+                                    width="100%" height="220" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+                                    allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-coppyright">
+        <p>Bản quyền © 2020 thuộc về CÔNG TY CỔ PHẦN VACCO</p>
+    </div>
+</footer>
+<!--[---------------------JS start here-----------------------]-->
+
+<!--Jquery-->
+<script src="vendors/jquery/jquery-3.5.1.min.js"></script>
+<!--Bootstrap-->
+<script src="vendors/bootstrap-4.5.0-dist/js/bootstrap.bundle.js"></script>
+<!--Slickslider-->
+<script src="vendors/slickSlider/slick.min.js"></script>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
