@@ -38,7 +38,7 @@ $(function () {
     });
 
     $('#banner-list').slick({
-        arrows: false,
+        arrows: true,
         dots: false,
         autoplay: true,
         slidesToShow: 1,
