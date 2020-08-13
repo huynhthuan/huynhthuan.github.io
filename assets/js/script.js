@@ -42,7 +42,7 @@ $(function () {
         dots: false,
         autoplay: true,
         slidesToShow: 1,
-        loop: true
+        loop: true,
     });
 
     $('.menu-toggle').on("click", function () {

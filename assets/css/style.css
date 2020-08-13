@@ -615,7 +615,8 @@ footer:after {
     align-items: center;
     margin: 25px 0 20px;
 }
-.footer-box-icon p{
+
+.footer-box-icon p {
     font-size: 18px;
 }
 
@@ -670,13 +671,49 @@ footer:after {
 }
 
 .banner-list .slick-prev {
-    left: 0;
+    left: 15px;
     z-index: 9;
 }
 
 .banner-list .slick-next {
-    right: 0;
+    right: 15px;
     z-index: 9;
+}
+
+.banner-list .slick-prev, .banner-list .slick-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ffc003;
+    text-align: center;
+    line-height: 40px;
+    transition: .5s all;
+}
+
+.banner-list .slick-prev:hover, .banner-list .slick-next:hover {
+    background-color: white;
+    transition: .5s all;
+}
+
+.banner-list .slick-prev:hover:before, .banner-list .slick-next:hover:before {
+    color: #ffc003;
+}
+
+.banner-list .slick-prev:before, .banner-list .slick-next:before {
+    font-family: 'Font Awesome 5 Free', sans-serif;
+    font-weight: 900;
+    opacity: 1;
+    font-size: 24px;
+    line-height: unset;
+}
+
+.banner-list .slick-prev:before {
+    content: "\f0d9";
+}
+
+.banner-list .slick-next:before {
+    content: "\f0da";
+
 }
 
 .banner-list img {
