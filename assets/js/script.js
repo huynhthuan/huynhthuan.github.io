@@ -76,3 +76,15 @@ $(function () {
         })
     })
 });
+
+
+$(document).mouseup(function (e) {
+    let container = $(".menu");
+    let toggle = $(".menu-toggle");
+
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && !toggle.is(e.target) && container.has(e.target).length === 0 && toggle.has(e.target).length === 0) {
+        container.removeClass("--active");
+        $('.icon-toggle').removeClass("--active")
+    }
+});

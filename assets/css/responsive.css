@@ -1,14 +1,20 @@
 @media (min-width: 768px) {
+    .menu-top-list .menu-top-item:not(:last-child) {
+        width: 33.3%;
+        margin: 14px 0 0 0;
+    }
+
+    .menu-top-list .menu-top-item:not(:last-child) .menu-top-content {
+        display: block;
+    }
+
+
     .box {
         padding: 70px 0 70px;
     }
 
     .box-banner {
         padding: 0;
-    }
-
-    .menu-top-item {
-        width: calc(20% - 1px) !important;
     }
 
     .menu-top-list .menu-top-item:not(:last-child):not(:nth-child(4)) {
@@ -259,9 +265,46 @@
         width: 200px;
         z-index: 99999999999999999999999;
     }
+
+    .menu-top-logo a > img {
+        width: 160px;
+        height: auto;
+    }
+
 }
 
 @media (min-width: 992px) {
+
+    .menu-top-list .menu-top-item:not(:last-child) {
+        width: calc((100% - 173px) / 4) !important;
+    }
+
+    .menu-top-list .menu-top-item:first-child {
+        display: flex;
+    }
+
+    .menu-top-list .menu-top-item:last-child {
+        width: 173px;
+        padding-left: 0;
+    }
+
+    .menu-top-list .menu-top-item:last-child .menu-top-content {
+        width: 173px;
+        padding-left: 0;
+    }
+
+    .menu-top-list .menu-top-item:not(:last-child) {
+        margin-top: 0;
+    }
+
+    .menu-top-list {
+        flex-wrap: nowrap;
+    }
+
+    .menu-top-logo .menu-top-item {
+        display: none;
+    }
+
     .page {
         position: relative;
         overflow: hidden;
@@ -310,8 +353,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-right: 0;
-        padding-left: 0;
     }
 
     .menu-top-list {
@@ -334,7 +375,7 @@
 
     .menu-link {
         border-right: 1px solid #ffffff1f;
-        padding: 14px 25px;
+        padding: 14px 20px;
     }
 
     .menu-search {
@@ -369,9 +410,20 @@
     .timeline-content td {
         font-size: 14px;
     }
+
+    .menu-top-logo {
+        position: relative;
+        display: block;
+        align-items: unset;
+    }
 }
 
 @media (min-width: 1200px) {
+    .menu-top {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
     header {
         max-width: 1140px;
         margin-right: auto;

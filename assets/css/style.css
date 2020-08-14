@@ -39,12 +39,24 @@ a:hover {
 }
 
 .menu-top {
-    text-align: center;
     padding: 15px;
 }
 
 .menu-top-logo {
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.menu-top-list .menu-top-item:first-child {
+    display: none;
+}
+
+.menu-top-logo .menu-top-item {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
 }
 
 .menu-toggle {
@@ -54,8 +66,8 @@ a:hover {
     transform: translateY(-50%);
 }
 
-.menu-top-logo img {
-    width: 160px;
+.menu-top-logo a > img {
+    width: 100px;
     height: auto;
 }
 
@@ -65,15 +77,31 @@ a:hover {
     margin-top: 14px;
 }
 
+.menu-top-item--submenu {
+    width: auto !important;
+}
+
+.menu-top-item--submenu .menu-top-content {
+    display: block !important;
+}
+
+.menu-top-list .menu-top-item:not(:last-child) .menu-top-content {
+    display: none;
+}
+
 .menu-top-item {
-    width: 50%;
     text-align: center;
 }
 
-.menu-top-list .menu-top-item:nth-child(1),
-.menu-top-list .menu-top-item:nth-child(2) {
-    margin-bottom: 14px;
+.menu-top-list .menu-top-item:last-child {
+    width: 100%;
 }
+
+.menu-top-list .menu-top-item:not(:last-child) {
+    width: 50px;
+    margin: 0 auto;
+}
+
 
 .button {
     border-radius: 18px;
@@ -1165,10 +1193,10 @@ footer:after {
     border-radius: 5px;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     margin-bottom: 0;
     z-index: 99;
-    width: 100%;
+    width: 200px;
     height: auto;
     opacity: 0;
     visibility: hidden;
