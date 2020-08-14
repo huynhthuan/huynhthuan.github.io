@@ -75,6 +75,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     margin-top: 14px;
+    align-items: center;
 }
 
 .menu-top-item--submenu {
@@ -94,12 +95,15 @@ a:hover {
 }
 
 .menu-top-list .menu-top-item:last-child {
-    width: 100%;
+    width: 173px;
 }
 
-.menu-top-list .menu-top-item:not(:last-child) {
-    width: 50px;
-    margin: 0 auto;
+.menu-top-list .menu-top-item:nth-child(2) {
+    margin-left: auto;
+}
+
+.menu-top-list .menu-top-item:nth-child(3), .menu-top-list .menu-top-item:nth-child(4) {
+    margin-left: 20px;
 }
 
 

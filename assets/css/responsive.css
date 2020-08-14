@@ -1,4 +1,10 @@
 @media (min-width: 768px) {
+
+    .menu-top-list .menu-top-item:last-child {
+        width: 100%
+    }
+
+
     .menu-top-list .menu-top-item:not(:last-child) {
         width: 33.3%;
         margin: 14px 0 0 0;
