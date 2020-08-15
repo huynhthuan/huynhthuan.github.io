@@ -38,14 +38,12 @@ a:hover {
     color: #ffc003 !important;
 }
 
-.menu-top {
-    padding: 15px;
-}
-
 .menu-top-logo {
     position: relative;
     display: flex;
     align-items: center;
+    padding: 15px;
+    background-color: #f2f2f2;
 }
 
 .menu-top-list .menu-top-item:first-child {
@@ -62,7 +60,7 @@ a:hover {
 .menu-toggle {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 15px;
     transform: translateY(-50%);
 }
 
@@ -74,7 +72,7 @@ a:hover {
 .menu-top-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 14px;
+    padding: 9px 15px;
     align-items: center;
 }
 
@@ -88,6 +86,10 @@ a:hover {
 
 .menu-top-list .menu-top-item:not(:last-child) .menu-top-content {
     display: none;
+}
+
+.menu-top-content .button--subcribe {
+    margin: 0;
 }
 
 .menu-top-item {
@@ -1188,6 +1190,11 @@ footer:after {
 
 .menu-top-item--submenu {
     position: relative;
+    display: flex;
+}
+
+.menu-top-item--submenu i{
+    margin-left: 4px;
 }
 
 .menu-top-submenu {

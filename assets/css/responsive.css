@@ -1,4 +1,8 @@
 @media (min-width: 768px) {
+    .menu-top-item--submenu .menu-top-name {
+        display: flex;
+        align-items: center;
+    }
 
     .menu-top-list .menu-top-item:last-child {
         width: 100%
@@ -13,6 +17,9 @@
         display: block;
     }
 
+    .menu-top-list {
+        justify-content: center;
+    }
 
     .box {
         padding: 70px 0 70px;
@@ -279,6 +286,9 @@
 }
 
 @media (min-width: 992px) {
+    .menu-top-logo {
+        background-color: transparent;
+    }
 
     .menu-top-list .menu-top-item:not(:last-child) {
         width: calc((100% - 173px) / 4) !important;
